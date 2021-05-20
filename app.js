@@ -22,7 +22,8 @@ var tile = new ol.layer.Tile({
 
 // vector layer
 const coords = [
-  48.459565, 36.622539, 48.450274, 36.627786, 48.457118, 36.632373,
+  48.459565, 36.622539, 48.453399, 36.622712, 48.450274, 36.627786, 48.457118,
+  36.632373, 48.45739, 36.629497,
 ];
 let path = [];
 for (let i = 0; i < coords.length; i += 2) {
@@ -39,7 +40,7 @@ var vector = new ol.layer.Vector({
   source,
   style: new ol.style.Style({
     stroke: new ol.style.Stroke({
-      color: "red",
+      color: "blue",
       width: 3,
     }),
   }),

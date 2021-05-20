@@ -2,3 +2,7 @@
       height: 400px;
       width: 100%;
     }
+
+    #navbar {
+          background-color: #0f5132 !important;
+    }
